@@ -12,12 +12,14 @@ This batch script will build C/C++ library based on CMake file and Visual Studio
 
   3. If you have installed Visual Studio in a different directory then a default one, you can specify path via `vs_build_path` flag as follows:
   
-      **.\flutter_build_dll.bat hello_library hello `-vs_build_path "C:\bla\bla\bla"`**
-      By the way, default path is: *C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build*
+      * **.\flutter_build_dll.bat hello_library hello `-vs_build_path "C:\bla\bla\bla"`**
+      
+      By the way, default path is: *"C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build"*
       
   4. And if you have installed CMake in a different directory then a default one, you can specify path via `cmake` flag as follows:
   
-      **.\flutter_build_dll.bat hello_library hello `-cmake "C:\bla\bla\bla"`**
-      By the way, default path is: *C:\Program Files\CMake\bin\cmake.exe*
+      * **.\flutter_build_dll.bat hello_library hello `-cmake "C:\bla\bla\bla"`**
+      
+      By the way, default path is: *"C:\Program Files\CMake\bin\cmake.exe"*
       
 Both flags `vs_build_path` and `cmake` could be used both together and separately.
