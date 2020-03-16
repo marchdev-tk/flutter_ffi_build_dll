@@ -1,5 +1,8 @@
 # Batch Script for building Windows DLL via Dart FFI
 
+![GitHub](https://img.shields.io/github/license/marchdev-tk/flutter_ffi_build_dll)
+![GitHub stars](https://img.shields.io/github/stars/marchdev-tk/flutter_ffi_build_dll?style=social)
+
 This batch script will build C/C++ library based on CMake file and Visual Studio msbuild complier.
 
 ## In order to use this script follow this instructions:
